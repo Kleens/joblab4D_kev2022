@@ -1,80 +1,84 @@
 body {
   background-color: #f0f0f0;
-}
-
-table,
-td {
-  border: 1px solid black;
-  width: 800px;
-  margin: auto;
-  text-align: center;
-  padding-bottom: 250px;
-  background-color: #ffffff;
-  box-shadow: 10px 10px 10px #e0e0e0;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-}
-.t {
-  background-color: #f0f0f0;
-  border: 0px;
-}
-.tavinterno {
-  border: 0px;
-  width: 1px;
-  height: 1px;
-  padding-bottom: 0%;
-}
-.tdinterno {
-  border: 0px;
-  width: 1px;
-  height: 1px;
-  padding-bottom: 0%;
-}
-div {
-  margin-top: 200px;
-  margin-bottom: -230px;
-  border: 3px solid #9d203c;
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 15;
-  color: #9d203c;
   font-family: sans-serif;
-  font-weight: bold;
-}
-.sidenav {
-  margin-top: 0px;
-  height: 100%;
-  width: 100px;
-  z-index: 1;
-  float: left;
-  margin-left: -2;
-  top: 0;
-  left: 0;
-  background-color: white;
-  overflow-x: hidden;
-  padding-top: 20px;
 }
 
-.sidenav {
-  height: 100%;
-  width: 160px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  padding-top: 20px;
+table {
+  margin-left: 150px;
+}
+.tav {
+  margin-left: 0px;
 }
 
-.sidenav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
+.title {
+color: rgb(36, 27, 27);
+font-size: 20px;
+font-weight: bold;
 }
+
+.card {
+  box-shadow: 5px 10px 20px 10px #e0e0e0;
+  border: 1px solid gray;
+  height: 400px;
+}
+
+.header {
+  text-align: center;
+  padding: 15px;
+  border-bottom: 1px solid gray;
+}
+
+.card-data {
+  font-size: medium;
+  margin: 10px;
+  margin-top: 20px;
+  
+}
+
+.categoria {
+color : gray;
+font-weight: bold;
+margin-left: 25px;
+
+
+}
+
+.valore {
+font-weight: bold;
+margin-left: 25px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .menu {
   display: block;
@@ -89,3 +93,34 @@ div {
   font-size: 2rem;
   text-decoration: none;
 }
+
+.sidebar {
+  height: 100%;
+  width: 150px;
+  position: -webkit-sticky; /* for Safari users */
+  position: fixed;
+  top: 0px;
+  float: left;
+  margin-top: 52px;
+  padding-top: 40px;
+  background-color:white;
+  
+  }
+  
+  .sidebar span {
+  padding: 8px;
+  font-size: 24px;
+  display: block;
+  }
+  .logo {
+      height: 90px;
+      width: 150px;
+      margin-left: 0px;
+      background-color: yellow;
+      position: fixed;
+  }
+  .logo span {
+      padding: 8px;
+  font-size: 24px;
+  display: block;
+  }
